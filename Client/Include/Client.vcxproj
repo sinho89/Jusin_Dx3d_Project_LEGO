@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E5CF41DC-E0BF-4716-8AF8-B92067FA392B}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.32002.118</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>../bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>../bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../Code; ../Headers; ../../Reference/Headers; ../../Reference/Libraries; ../../Boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;Utility.lib;Resources.lib;System.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../Reference/Libraries; ../../Boost;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../Code; ../Headers; ../../Reference/Headers; ../../Reference/Libraries; ../../Boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;Utility.lib;Resources.lib;System.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../Reference/Libraries; ../../Boost;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\Aim.cpp" />
+    <ClCompile Include="..\Code\AttParticle.cpp" />
+    <ClCompile Include="..\Code\Body.cpp" />
+    <ClCompile Include="..\Code\BossApearParticle.cpp" />
+    <ClCompile Include="..\Code\Boss_1.cpp" />
+    <ClCompile Include="..\Code\Boss_2.cpp" />
+    <ClCompile Include="..\Code\BuffParticle.cpp" />
+    <ClCompile Include="..\Code\ClientObj.cpp" />
+    <ClCompile Include="..\Code\ClientScene.cpp" />
+    <ClCompile Include="..\Code\CollisionMgr.cpp" />
+    <ClCompile Include="..\Code\CubeObject.cpp" />
+    <ClCompile Include="..\Code\Destroy.cpp" />
+    <ClCompile Include="..\Code\Elf_Soldier.cpp" />
+    <ClCompile Include="..\Code\FieldFire.cpp" />
+    <ClCompile Include="..\Code\Head.cpp" />
+    <ClCompile Include="..\Code\Heart.cpp" />
+    <ClCompile Include="..\Code\Heart2.cpp" />
+    <ClCompile Include="..\Code\HitParticle.cpp" />
+    <ClCompile Include="..\Code\LeftArm_Down.cpp" />
+    <ClCompile Include="..\Code\LeftArm_Up.cpp" />
+    <ClCompile Include="..\Code\LeftLeg.cpp" />
+    <ClCompile Include="..\Code\Lhpclass.cpp" />
+    <ClCompile Include="..\Code\Logo.cpp" />
+    <ClCompile Include="..\Code\LogoBack.cpp" />
+    <ClCompile Include="..\Code\MagmaParticle.cpp" />
+    <ClCompile Include="..\Code\MainApp.cpp" />
+    <ClCompile Include="..\Code\MeteoParticle.cpp" />
+    <ClCompile Include="..\Code\Metheo.cpp" />
+    <ClCompile Include="..\Code\Monster_Orc.cpp" />
+    <ClCompile Include="..\Code\NukeParticle.cpp" />
+    <ClCompile Include="..\Code\ParticleObject.cpp" />
+    <ClCompile Include="..\Code\Petal.cpp" />
+    <ClCompile Include="..\Code\Player1Skill.cpp" />
+    <ClCompile Include="..\Code\Player1Skill2.cpp" />
+    <ClCompile Include="..\Code\Player2Skill.cpp" />
+    <ClCompile Include="..\Code\Player2Skill2.cpp" />
+    <ClCompile Include="..\Code\PlayerGround.cpp" />
+    <ClCompile Include="..\Code\PlayerGround2.cpp" />
+    <ClCompile Include="..\Code\Player_Elond.cpp" />
+    <ClCompile Include="..\Code\Player_Isildur.cpp" />
+    <ClCompile Include="..\Code\RcObject.cpp" />
+    <ClCompile Include="..\Code\RightArm_Down.cpp" />
+    <ClCompile Include="..\Code\RightArm_Up.cpp" />
+    <ClCompile Include="..\Code\RightLeg.cpp" />
+    <ClCompile Include="..\Code\Ring.cpp" />
+    <ClCompile Include="..\Code\ShorkWaveParticle.cpp" />
+    <ClCompile Include="..\Code\SkillParticle.cpp" />
+    <ClCompile Include="..\Code\SkyBox.cpp" />
+    <ClCompile Include="..\Code\Stage_1.cpp" />
+    <ClCompile Include="..\Code\Stage_2.cpp" />
+    <ClCompile Include="..\Code\Stage_3.cpp" />
+    <ClCompile Include="..\Code\Sword.cpp" />
+    <ClCompile Include="..\Code\Terrain.cpp" />
+    <ClCompile Include="..\Code\TerrainCol.cpp" />
+    <ClCompile Include="..\Code\TerrainObject.cpp" />
+    <ClCompile Include="..\Code\UI.cpp" />
+    <ClCompile Include="..\Code\UI2.cpp" />
+    <ClCompile Include="..\Code\Unit.cpp" />
+    <ClCompile Include="..\Code\UnitCol.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\Aim.h" />
+    <ClInclude Include="..\Code\AttParticle.h" />
+    <ClInclude Include="..\Code\Body.h" />
+    <ClInclude Include="..\Code\BossApearParticle.h" />
+    <ClInclude Include="..\Code\Boss_1.h" />
+    <ClInclude Include="..\Code\Boss_2.h" />
+    <ClInclude Include="..\Code\BuffParticle.h" />
+    <ClInclude Include="..\Code\ClientObj.h" />
+    <ClInclude Include="..\Code\ClientScene.h" />
+    <ClInclude Include="..\Code\CollisionMgr.h" />
+    <ClInclude Include="..\Code\CubeObject.h" />
+    <ClInclude Include="..\Code\Destroy.h" />
+    <ClInclude Include="..\Code\Elf_Soldier.h" />
+    <ClInclude Include="..\Code\FieldFire.h" />
+    <ClInclude Include="..\Code\Head.h" />
+    <ClInclude Include="..\Code\Heart.h" />
+    <ClInclude Include="..\Code\Heart2.h" />
+    <ClInclude Include="..\Code\HitParticle.h" />
+    <ClInclude Include="..\Code\LeftArm_Down.h" />
+    <ClInclude Include="..\Code\LeftArm_Up.h" />
+    <ClInclude Include="..\Code\LeftLeg.h" />
+    <ClInclude Include="..\Code\Lhpclass.h" />
+    <ClInclude Include="..\Code\Logo.h" />
+    <ClInclude Include="..\Code\LogoBack.h" />
+    <ClInclude Include="..\Code\MagmaParticle.h" />
+    <ClInclude Include="..\Code\MainApp.h" />
+    <ClInclude Include="..\Code\MeteoParticle.h" />
+    <ClInclude Include="..\Code\Metheo.h" />
+    <ClInclude Include="..\Code\Monster_Orc.h" />
+    <ClInclude Include="..\Code\NukeParticle.h" />
+    <ClInclude Include="..\Code\ParticleObject.h" />
+    <ClInclude Include="..\Code\Petal.h" />
+    <ClInclude Include="..\Code\Player1Skill.h" />
+    <ClInclude Include="..\Code\Player1Skill2.h" />
+    <ClInclude Include="..\Code\Player2Skill.h" />
+    <ClInclude Include="..\Code\Player2Skill2.h" />
+    <ClInclude Include="..\Code\PlayerGround.h" />
+    <ClInclude Include="..\Code\PlayerGround2.h" />
+    <ClInclude Include="..\Code\Player_Elond.h" />
+    <ClInclude Include="..\Code\Player_Isildur.h" />
+    <ClInclude Include="..\Code\RcObject.h" />
+    <ClInclude Include="..\Code\RightArm_Down.h" />
+    <ClInclude Include="..\Code\RightArm_Up.h" />
+    <ClInclude Include="..\Code\RightLeg.h" />
+    <ClInclude Include="..\Code\Ring.h" />
+    <ClInclude Include="..\Code\SceneSelector.h" />
+    <ClInclude Include="..\Code\ShorkWaveParticle.h" />
+    <ClInclude Include="..\Code\SkillParticle.h" />
+    <ClInclude Include="..\Code\SkyBox.h" />
+    <ClInclude Include="..\Code\Stage_1.h" />
+    <ClInclude Include="..\Code\Stage_2.h" />
+    <ClInclude Include="..\Code\Stage_3.h" />
+    <ClInclude Include="..\Code\Sword.h" />
+    <ClInclude Include="..\Code\Terrain.h" />
+    <ClInclude Include="..\Code\TerrainCol.h" />
+    <ClInclude Include="..\Code\TerrainObject.h" />
+    <ClInclude Include="..\Code\UI.h" />
+    <ClInclude Include="..\Code\UI2.h" />
+    <ClInclude Include="..\Code\Unit.h" />
+    <ClInclude Include="..\Code\UnitCol.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

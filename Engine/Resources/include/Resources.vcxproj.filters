@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.ResourcesMgr">
+      <UniqueIdentifier>{21d5188e-64f2-432b-9b4d-144f998cd51c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources">
+      <UniqueIdentifier>{35da5152-fe00-44c0-8153-85f735c9f725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer">
+      <UniqueIdentifier>{39b4d1ad-3fec-4e7a-98f6-b8d539b09227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer\00.CubeBox">
+      <UniqueIdentifier>{96690be8-794c-4c36-9afb-af4fa4313976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer\01.CubeCol">
+      <UniqueIdentifier>{8a69d71a-5fc7-4471-87ff-2882653e90aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer\02. Terrain">
+      <UniqueIdentifier>{9a0ef3b7-8576-4962-a42d-83fd0db992e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer\03. TerrainTex">
+      <UniqueIdentifier>{c36dced0-8267-4f80-8cd0-0448511fb4e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\00.Buffer\04. RcTex">
+      <UniqueIdentifier>{5f0cbd6d-8042-455e-9735-484734e7bf8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Resources\01.Texture">
+      <UniqueIdentifier>{42bce27e-2f45-4925-bd5b-4f8a6416d6a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Export">
+      <UniqueIdentifier>{af484eb1-760f-4eda-8bc9-140bee523c73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\code\ResourcesMgr.cpp">
+      <Filter>00.ResourcesMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\Resources.cpp">
+      <Filter>01.Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\VIBuffer.cpp">
+      <Filter>01.Resources\00.Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\CubeTex.cpp">
+      <Filter>01.Resources\00.Buffer\00.CubeBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\CubeCol.cpp">
+      <Filter>01.Resources\00.Buffer\01.CubeCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\RcTerrain.cpp">
+      <Filter>01.Resources\00.Buffer\02. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\TerrainTex.cpp">
+      <Filter>01.Resources\00.Buffer\03. TerrainTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\RcTex.cpp">
+      <Filter>01.Resources\00.Buffer\04. RcTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\Texture.cpp">
+      <Filter>01.Resources\01.Texture</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\code\ResourcesMgr.h">
+      <Filter>00.ResourcesMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Resources.h">
+      <Filter>01.Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\VIBuffer.h">
+      <Filter>01.Resources\00.Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\CubeTex.h">
+      <Filter>01.Resources\00.Buffer\00.CubeBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\CubeCol.h">
+      <Filter>01.Resources\00.Buffer\01.CubeCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\RcTerrain.h">
+      <Filter>01.Resources\00.Buffer\02. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\TerrainTex.h">
+      <Filter>01.Resources\00.Buffer\03. TerrainTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\RcTex.h">
+      <Filter>01.Resources\00.Buffer\04. RcTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Texture.h">
+      <Filter>01.Resources\01.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Export\Export_Resources.h">
+      <Filter>99.Export</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Export\Export_Resources.inl">
+      <Filter>99.Export</Filter>
+    </None>
+  </ItemGroup>
+</Project>

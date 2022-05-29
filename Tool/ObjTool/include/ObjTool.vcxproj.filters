@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainFrame">
+      <UniqueIdentifier>{62ff343a-3173-4f87-adf2-83d1f9f11811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Document">
+      <UniqueIdentifier>{8555a6f6-ba01-4baa-9bb5-6a1b3ff7bb45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{f086de6d-8e79-4a3c-aacc-8d323ad8fe8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object">
+      <UniqueIdentifier>{a8c131de-625f-42a0-954d-e1e9cc155807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\00.Camera">
+      <UniqueIdentifier>{106965aa-98eb-4ef8-a9cb-e1431f62e18d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\02.CubeObj">
+      <UniqueIdentifier>{f40318b9-a29e-48bc-a498-a4a59bec0178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\01.CamTarget">
+      <UniqueIdentifier>{7a713bae-3356-434f-997e-412e0d58fb1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Design">
+      <UniqueIdentifier>{d73128a7-3f13-4576-9a25-afe7f12127e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Mgr">
+      <UniqueIdentifier>{9a6012b8-12e9-4569-b438-da1947ea9401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Mgr\00.CollisionMgr">
+      <UniqueIdentifier>{cc005430-d83d-4218-b0e0-13bc5b485bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Mgr\00.CollisionMgr\00.MouseCol">
+      <UniqueIdentifier>{43f2f7aa-4e24-471d-853e-ec6018e69b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View">
+      <UniqueIdentifier>{f01eaac2-d631-4178-a666-c7231f92ad9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\00.MainView">
+      <UniqueIdentifier>{7d80c78d-9bdb-4c5a-8ac8-dcebf3bd70de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View\01.FormView">
+      <UniqueIdentifier>{b74e0d1d-7356-4bf6-8de3-a35bb33c93a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00.MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjToolDoc.cpp">
+      <Filter>01.Document</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjTool.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\StaticCamera.cpp">
+      <Filter>03.Object\00.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\CubeObj.cpp">
+      <Filter>03.Object\02.CubeObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\CamTarget.cpp">
+      <Filter>03.Object\01.CamTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\CameraObserver.cpp">
+      <Filter>04.Design</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\CollisionMgr.cpp">
+      <Filter>05.Mgr\00.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\MouseCol.cpp">
+      <Filter>05.Mgr\00.CollisionMgr\00.MouseCol</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjToolView.cpp">
+      <Filter>02.View\00.MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>02.View\01.FormView</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00.MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjToolDoc.h">
+      <Filter>01.Document</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjTool.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\StaticCamera.h">
+      <Filter>03.Object\00.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\CubeObj.h">
+      <Filter>03.Object\02.CubeObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\CamTarget.h">
+      <Filter>03.Object\01.CamTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\CameraObserver.h">
+      <Filter>04.Design</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\CollisionMgr.h">
+      <Filter>05.Mgr\00.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\MouseCol.h">
+      <Filter>05.Mgr\00.CollisionMgr\00.MouseCol</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjToolView.h">
+      <Filter>02.View\00.MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>02.View\01.FormView</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ObjTool.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\ObjToolDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="UserImages.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ObjTool.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ObjTool.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

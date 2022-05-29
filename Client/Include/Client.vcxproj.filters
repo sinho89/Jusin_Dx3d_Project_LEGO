@@ -1,0 +1,606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{25752be2-3007-463f-af36-c35971dd43c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\00.Logo">
+      <UniqueIdentifier>{8c893426-3c0e-4937-822f-93ddb13cfa87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Stage_1">
+      <UniqueIdentifier>{be855a2f-dcf5-45de-8f2d-9e3ab6146f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\02.Stage_2">
+      <UniqueIdentifier>{bfc23789-b59f-426e-ba87-3c917acfca89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\03.Stage_3">
+      <UniqueIdentifier>{8752d136-bec6-479b-9553-ad8d4809bcc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object">
+      <UniqueIdentifier>{559dfb8d-b3a6-4648-a0a7-c73e857ae24c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\02. TerrainObject">
+      <UniqueIdentifier>{9c8549f5-0407-4a1e-b139-e15143161871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\02. TerrainObject\00. Terrain">
+      <UniqueIdentifier>{2acd9544-f059-4e1f-a0b7-3414edf935b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01. CubeObject">
+      <UniqueIdentifier>{ff8ecb84-a547-4f39-8124-1359b6d5975f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01. CubeObject\00. SkyBox">
+      <UniqueIdentifier>{6ea57a47-fcd1-4179-ac45-284bd064e8a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01. CubeObject\01. BodyPart">
+      <UniqueIdentifier>{d0c94944-e64a-4412-8006-d543052618d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01. CubeObject\01. BodyPart\00. Head">
+      <UniqueIdentifier>{9fb8a304-8dcf-4800-8339-6e73108ba232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01. CubeObject\01. BodyPart\01 Body">
+      <UniqueIdentifier>{6fee0d67-9aac-4e8f-908e-0bcd05075d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01. CubeObject\01. BodyPart\02. RightArm_Up">
+      <UniqueIdentifier>{3707e8dd-d12a-4b34-87d2-128f497a5cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01. CubeObject\01. BodyPart\03. RIghtArm_Down">
+      <UniqueIdentifier>{597bf4f9-3fcc-4a75-b531-b5ec1fbd7405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01. CubeObject\01. BodyPart\04. LeftArm_Up">
+      <UniqueIdentifier>{e89ed8b8-d416-40b2-888e-08c7ec764644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01. CubeObject\01. BodyPart\05. LeftArm_Down">
+      <UniqueIdentifier>{11457324-eac5-4b78-acfe-16aa1552a0e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01. CubeObject\01. BodyPart\06. RightLeg">
+      <UniqueIdentifier>{84a2d175-976a-473c-adea-8d9fd0af89ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01. CubeObject\01. BodyPart\07. LeftLeg">
+      <UniqueIdentifier>{dea40d48-49c8-4265-9963-288c12e1d63f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01. CubeObject\02. Sword">
+      <UniqueIdentifier>{e9edcd3e-cb98-42cd-8777-7af58110e8c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01. CubeObject\03. Metheo">
+      <UniqueIdentifier>{b11bbd62-f647-4e3e-9687-550092ae6006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00. RcObject">
+      <UniqueIdentifier>{2b095aeb-bb29-436e-9d9b-715641c6f2ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00. RcObject\01. UI">
+      <UniqueIdentifier>{1794123b-f07b-4167-87dc-8e61e2757aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00. RcObject\01. UI\Heart">
+      <UniqueIdentifier>{d299a543-5b19-44d0-9b41-31233dc9456d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00. RcObject\01. UI\PlayerGround">
+      <UniqueIdentifier>{534efd28-4f9d-4b48-86e8-3ed264a57071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00. RcObject\01. UI\LHeart">
+      <UniqueIdentifier>{e7e90c9a-1ccc-4f48-a49e-ad089a8e87e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00. RcObject\01. UI\PlayerGround2">
+      <UniqueIdentifier>{6da60f0b-8947-439c-92df-2a92d9e12c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00. RcObject\01. UI\Heart2">
+      <UniqueIdentifier>{782d235d-96ef-4899-b1fa-e4f9cddfcb4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00. RcObject\01. UI\1PSkill">
+      <UniqueIdentifier>{719edf51-30a5-42aa-a8f8-cbcb4ea701a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00. RcObject\01. UI\1PSkill2">
+      <UniqueIdentifier>{0c046840-f157-495f-9d96-0b41963e33e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00. RcObject\01. UI\2PSkill">
+      <UniqueIdentifier>{af9e425c-6503-4260-86b4-6d5b79575e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00. RcObject\01. UI\2PSkill2">
+      <UniqueIdentifier>{6a1a0a9e-c3e6-49dc-8d39-e3176f80ae60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00. RcObject\01. UI\AIM">
+      <UniqueIdentifier>{72d9be15-6acc-4356-8e1e-1b6f54e3c0c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00. RcObject\01. UI\Destroy">
+      <UniqueIdentifier>{5947bc5a-a4b9-43ec-b9b2-9448997d175b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00. RcObject\00. BackGround">
+      <UniqueIdentifier>{af71df3d-3ff8-404e-8dd9-d0152499aa03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00. RcObject\00. BackGround\00. LogoBack">
+      <UniqueIdentifier>{b3577e47-04f2-4ecc-9464-595be15a5b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\03. Camera">
+      <UniqueIdentifier>{78b3cf53-f148-4af8-8203-8e26d8a5f4d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\04. Unit">
+      <UniqueIdentifier>{8c403c30-0eed-48c7-8993-58f96d17bc37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\04. Unit\00. Elond">
+      <UniqueIdentifier>{764a0fab-52a5-49ac-be60-f3f38bc633c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\04. Unit\02. Orc">
+      <UniqueIdentifier>{599c3916-d77a-456d-a3df-bfc971550a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\04. Unit\03. Boss_1">
+      <UniqueIdentifier>{4ff0e288-aea4-49fe-b745-ad12e6f85865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\04. Unit\01. Isildur">
+      <UniqueIdentifier>{0b6b1e6e-402a-455b-b8b8-c97476bc39ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\04. Unit\02. Elf_Soldier">
+      <UniqueIdentifier>{6c79d382-e216-4c58-8eb1-006dcf4223e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\04. Unit\04. Boss_2">
+      <UniqueIdentifier>{3777cfa8-581d-475a-bee2-c5cb30672b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\04. Unit\05. Load_of_The_Ring">
+      <UniqueIdentifier>{52fa42f3-0fc8-4c4f-9464-ff8ea7fdc1e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\05. Particle">
+      <UniqueIdentifier>{2ce331be-00f6-4a09-afc6-35e2f73da5fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\05. Particle\00. Petal">
+      <UniqueIdentifier>{f4e0d489-7979-4882-9828-6c2aab149ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\05. Particle\01. VolcParticle">
+      <UniqueIdentifier>{8373c123-59c4-4f6c-9692-bde60ad25348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\05. Particle\02. HitParticle">
+      <UniqueIdentifier>{f613d782-1fee-4fa7-bfe8-f2e9dda929fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\05. Particle\03. SkillParticle">
+      <UniqueIdentifier>{329169f3-5195-4376-a648-f026db30380a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\05. Particle\04. MagmaParticle">
+      <UniqueIdentifier>{c3a849d4-b6c5-41b5-9d25-ee9634c47334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\05. Particle\05. ElondSkillEffect">
+      <UniqueIdentifier>{27cbda05-1072-4762-97fa-c2d7e8097557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\05. Particle\05. ElondSkillEffect\00. Meteo">
+      <UniqueIdentifier>{a8e3e139-abf3-4cb4-8e29-423b1c13a24d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\05. Particle\05. ElondSkillEffect\01. Buff">
+      <UniqueIdentifier>{3d871c56-a23c-4bdc-aa4a-4cd5e520b88a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\05. Particle\06. IsildurSkillEffect">
+      <UniqueIdentifier>{d0926f20-bd47-46dd-b0e2-0fa5b1966af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\05. Particle\06. IsildurSkillEffect\00. ShorkWave">
+      <UniqueIdentifier>{379df254-1f40-4d06-9abb-2792f834a157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\05. Particle\06. IsildurSkillEffect\01. Nuke">
+      <UniqueIdentifier>{0a798cef-7547-45bd-946e-ea5fdce70efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\05. Particle\07. BossApear">
+      <UniqueIdentifier>{bb1fb34e-9c34-4fb0-a878-ef6979d6753b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\05. Particle\08. FieldFire">
+      <UniqueIdentifier>{c73c778a-de09-45ed-a079-3810833aaa10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Design">
+      <UniqueIdentifier>{2648af07-4df4-4625-928d-48784a04320e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{b53f001a-6197-42d8-9baa-1b3c02347023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{a4ee50b0-a5d0-47eb-8fe6-9e95c551e46a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Mgr">
+      <UniqueIdentifier>{67856c1f-ed99-4143-8b02-8bb12a21ad1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Mgr\00.CollisionMgr">
+      <UniqueIdentifier>{567c2ea4-fd9f-4034-9689-ec4c5fd5fd55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Mgr\00.CollisionMgr\01.TerrainCol">
+      <UniqueIdentifier>{bd0df59d-d046-4030-9a78-00b26359fbb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Mgr\00.CollisionMgr\00.MouseCol">
+      <UniqueIdentifier>{4375dafc-b56f-45a1-9c64-7c0977e7b9e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Mgr\00.CollisionMgr\02.UnitCol">
+      <UniqueIdentifier>{89e65101-ed73-4641-ad30-c88777274f84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Mgr\SoundMgr">
+      <UniqueIdentifier>{3165db71-f7f1-4f55-ac00-e6fcdbbe12ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\ClientScene.cpp">
+      <Filter>01.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Logo.cpp">
+      <Filter>01.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Stage_1.cpp">
+      <Filter>01.Scene\01.Stage_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Stage_2.cpp">
+      <Filter>01.Scene\02.Stage_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Stage_3.cpp">
+      <Filter>01.Scene\03.Stage_3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ClientObj.cpp">
+      <Filter>02.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TerrainObject.cpp">
+      <Filter>02.Object\02. TerrainObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Terrain.cpp">
+      <Filter>02.Object\02. TerrainObject\00. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeObject.cpp">
+      <Filter>02.Object\01. CubeObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkyBox.cpp">
+      <Filter>02.Object\01. CubeObject\00. SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Head.cpp">
+      <Filter>02.Object\01. CubeObject\01. BodyPart\00. Head</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Body.cpp">
+      <Filter>02.Object\01. CubeObject\01. BodyPart\01 Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RightArm_Up.cpp">
+      <Filter>02.Object\01. CubeObject\01. BodyPart\02. RightArm_Up</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RightArm_Down.cpp">
+      <Filter>02.Object\01. CubeObject\01. BodyPart\03. RIghtArm_Down</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LeftArm_Up.cpp">
+      <Filter>02.Object\01. CubeObject\01. BodyPart\04. LeftArm_Up</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LeftArm_Down.cpp">
+      <Filter>02.Object\01. CubeObject\01. BodyPart\05. LeftArm_Down</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RightLeg.cpp">
+      <Filter>02.Object\01. CubeObject\01. BodyPart\06. RightLeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LeftLeg.cpp">
+      <Filter>02.Object\01. CubeObject\01. BodyPart\07. LeftLeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Sword.cpp">
+      <Filter>02.Object\01. CubeObject\02. Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Metheo.cpp">
+      <Filter>02.Object\01. CubeObject\03. Metheo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RcObject.cpp">
+      <Filter>02.Object\00. RcObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI.cpp">
+      <Filter>02.Object\00. RcObject\01. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI2.cpp">
+      <Filter>02.Object\00. RcObject\01. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Heart.cpp">
+      <Filter>02.Object\00. RcObject\01. UI\Heart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayerGround.cpp">
+      <Filter>02.Object\00. RcObject\01. UI\PlayerGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Lhpclass.cpp">
+      <Filter>02.Object\00. RcObject\01. UI\LHeart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayerGround2.cpp">
+      <Filter>02.Object\00. RcObject\01. UI\PlayerGround2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Heart2.cpp">
+      <Filter>02.Object\00. RcObject\01. UI\Heart2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Player1Skill.cpp">
+      <Filter>02.Object\00. RcObject\01. UI\1PSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Player1Skill2.cpp">
+      <Filter>02.Object\00. RcObject\01. UI\1PSkill2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Player2Skill.cpp">
+      <Filter>02.Object\00. RcObject\01. UI\2PSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Player2Skill2.cpp">
+      <Filter>02.Object\00. RcObject\01. UI\2PSkill2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Aim.cpp">
+      <Filter>02.Object\00. RcObject\01. UI\AIM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Destroy.cpp">
+      <Filter>02.Object\00. RcObject\01. UI\Destroy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LogoBack.cpp">
+      <Filter>02.Object\00. RcObject\00. BackGround\00. LogoBack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Unit.cpp">
+      <Filter>02.Object\04. Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Player_Elond.cpp">
+      <Filter>02.Object\04. Unit\00. Elond</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Monster_Orc.cpp">
+      <Filter>02.Object\04. Unit\02. Orc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Boss_1.cpp">
+      <Filter>02.Object\04. Unit\03. Boss_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Player_Isildur.cpp">
+      <Filter>02.Object\04. Unit\01. Isildur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Elf_Soldier.cpp">
+      <Filter>02.Object\04. Unit\02. Elf_Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Boss_2.cpp">
+      <Filter>02.Object\04. Unit\04. Boss_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Ring.cpp">
+      <Filter>02.Object\04. Unit\05. Load_of_The_Ring</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ParticleObject.cpp">
+      <Filter>02.Object\05. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Petal.cpp">
+      <Filter>02.Object\05. Particle\00. Petal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\AttParticle.cpp">
+      <Filter>02.Object\05. Particle\01. VolcParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HitParticle.cpp">
+      <Filter>02.Object\05. Particle\02. HitParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkillParticle.cpp">
+      <Filter>02.Object\05. Particle\03. SkillParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MagmaParticle.cpp">
+      <Filter>02.Object\05. Particle\04. MagmaParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MeteoParticle.cpp">
+      <Filter>02.Object\05. Particle\05. ElondSkillEffect\00. Meteo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BuffParticle.cpp">
+      <Filter>02.Object\05. Particle\05. ElondSkillEffect\01. Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ShorkWaveParticle.cpp">
+      <Filter>02.Object\05. Particle\06. IsildurSkillEffect\00. ShorkWave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\NukeParticle.cpp">
+      <Filter>02.Object\05. Particle\06. IsildurSkillEffect\01. Nuke</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BossApearParticle.cpp">
+      <Filter>02.Object\05. Particle\07. BossApear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FieldFire.cpp">
+      <Filter>02.Object\05. Particle\08. FieldFire</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CollisionMgr.cpp">
+      <Filter>04.Mgr\00.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TerrainCol.cpp">
+      <Filter>04.Mgr\00.CollisionMgr\01.TerrainCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UnitCol.cpp">
+      <Filter>04.Mgr\00.CollisionMgr\02.UnitCol</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\ClientScene.h">
+      <Filter>01.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneSelector.h">
+      <Filter>01.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Logo.h">
+      <Filter>01.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Stage_1.h">
+      <Filter>01.Scene\01.Stage_1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Stage_2.h">
+      <Filter>01.Scene\02.Stage_2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Stage_3.h">
+      <Filter>01.Scene\03.Stage_3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ClientObj.h">
+      <Filter>02.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TerrainObject.h">
+      <Filter>02.Object\02. TerrainObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Terrain.h">
+      <Filter>02.Object\02. TerrainObject\00. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeObject.h">
+      <Filter>02.Object\01. CubeObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SkyBox.h">
+      <Filter>02.Object\01. CubeObject\00. SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Head.h">
+      <Filter>02.Object\01. CubeObject\01. BodyPart\00. Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Body.h">
+      <Filter>02.Object\01. CubeObject\01. BodyPart\01 Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RightArm_Up.h">
+      <Filter>02.Object\01. CubeObject\01. BodyPart\02. RightArm_Up</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RightArm_Down.h">
+      <Filter>02.Object\01. CubeObject\01. BodyPart\03. RIghtArm_Down</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LeftArm_Up.h">
+      <Filter>02.Object\01. CubeObject\01. BodyPart\04. LeftArm_Up</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LeftArm_Down.h">
+      <Filter>02.Object\01. CubeObject\01. BodyPart\05. LeftArm_Down</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RightLeg.h">
+      <Filter>02.Object\01. CubeObject\01. BodyPart\06. RightLeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LeftLeg.h">
+      <Filter>02.Object\01. CubeObject\01. BodyPart\07. LeftLeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Sword.h">
+      <Filter>02.Object\01. CubeObject\02. Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Metheo.h">
+      <Filter>02.Object\01. CubeObject\03. Metheo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RcObject.h">
+      <Filter>02.Object\00. RcObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UI.h">
+      <Filter>02.Object\00. RcObject\01. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UI2.h">
+      <Filter>02.Object\00. RcObject\01. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Heart.h">
+      <Filter>02.Object\00. RcObject\01. UI\Heart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PlayerGround.h">
+      <Filter>02.Object\00. RcObject\01. UI\PlayerGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Lhpclass.h">
+      <Filter>02.Object\00. RcObject\01. UI\LHeart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PlayerGround2.h">
+      <Filter>02.Object\00. RcObject\01. UI\PlayerGround2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Heart2.h">
+      <Filter>02.Object\00. RcObject\01. UI\Heart2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Player1Skill.h">
+      <Filter>02.Object\00. RcObject\01. UI\1PSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Player1Skill2.h">
+      <Filter>02.Object\00. RcObject\01. UI\1PSkill2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Player2Skill.h">
+      <Filter>02.Object\00. RcObject\01. UI\2PSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Player2Skill2.h">
+      <Filter>02.Object\00. RcObject\01. UI\2PSkill2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Aim.h">
+      <Filter>02.Object\00. RcObject\01. UI\AIM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Destroy.h">
+      <Filter>02.Object\00. RcObject\01. UI\Destroy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LogoBack.h">
+      <Filter>02.Object\00. RcObject\00. BackGround\00. LogoBack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Unit.h">
+      <Filter>02.Object\04. Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Player_Elond.h">
+      <Filter>02.Object\04. Unit\00. Elond</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Monster_Orc.h">
+      <Filter>02.Object\04. Unit\02. Orc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Boss_1.h">
+      <Filter>02.Object\04. Unit\03. Boss_1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Player_Isildur.h">
+      <Filter>02.Object\04. Unit\01. Isildur</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Elf_Soldier.h">
+      <Filter>02.Object\04. Unit\02. Elf_Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Boss_2.h">
+      <Filter>02.Object\04. Unit\04. Boss_2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Ring.h">
+      <Filter>02.Object\04. Unit\05. Load_of_The_Ring</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ParticleObject.h">
+      <Filter>02.Object\05. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Petal.h">
+      <Filter>02.Object\05. Particle\00. Petal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\AttParticle.h">
+      <Filter>02.Object\05. Particle\01. VolcParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\HitParticle.h">
+      <Filter>02.Object\05. Particle\02. HitParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SkillParticle.h">
+      <Filter>02.Object\05. Particle\03. SkillParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MagmaParticle.h">
+      <Filter>02.Object\05. Particle\04. MagmaParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MeteoParticle.h">
+      <Filter>02.Object\05. Particle\05. ElondSkillEffect\00. Meteo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BuffParticle.h">
+      <Filter>02.Object\05. Particle\05. ElondSkillEffect\01. Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ShorkWaveParticle.h">
+      <Filter>02.Object\05. Particle\06. IsildurSkillEffect\00. ShorkWave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\NukeParticle.h">
+      <Filter>02.Object\05. Particle\06. IsildurSkillEffect\01. Nuke</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BossApearParticle.h">
+      <Filter>02.Object\05. Particle\07. BossApear</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FieldFire.h">
+      <Filter>02.Object\05. Particle\08. FieldFire</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CollisionMgr.h">
+      <Filter>04.Mgr\00.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TerrainCol.h">
+      <Filter>04.Mgr\00.CollisionMgr\01.TerrainCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UnitCol.h">
+      <Filter>04.Mgr\00.CollisionMgr\02.UnitCol</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

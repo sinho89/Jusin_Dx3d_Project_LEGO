@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. MainFrm">
+      <UniqueIdentifier>{e77b251a-06c7-4337-83e1-34b9f06c41af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Document">
+      <UniqueIdentifier>{c5193ae4-0312-482a-8a14-6462b4b5123a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. View">
+      <UniqueIdentifier>{594f5391-3cf9-40b1-99f7-44fef1028b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. View\00. Form">
+      <UniqueIdentifier>{5d459a80-4746-42cb-a926-4090e200189f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Terrain">
+      <UniqueIdentifier>{f7615b7e-b250-4fe4-a76e-34f2955e0214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{089a2980-e66f-49ed-a197-96ed5470db5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object">
+      <UniqueIdentifier>{15205512-1a17-4260-a58e-9893cbf2314f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Design">
+      <UniqueIdentifier>{8fa5b016-92e2-424a-a512-1ae35a834769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Mgr">
+      <UniqueIdentifier>{85378563-7ea8-42ed-9c60-361794b699b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Mgr\00. MouseCol">
+      <UniqueIdentifier>{2682a748-25dc-4c28-af84-da05da7f42ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00. MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="MapToolDoc.cpp">
+      <Filter>01. Document</Filter>
+    </ClCompile>
+    <ClCompile Include="MapToolView.cpp">
+      <Filter>02. View</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>02. View\00. Form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\Terrain.cpp">
+      <Filter>03. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\CamTarget.cpp">
+      <Filter>04. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\StaticCamera.cpp">
+      <Filter>04. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\CameraObserver.cpp">
+      <Filter>05. Design</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\CollisionMgr.cpp">
+      <Filter>06. Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\MouseCol.cpp">
+      <Filter>06. Mgr\00. MouseCol</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00. MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="MapToolDoc.h">
+      <Filter>01. Document</Filter>
+    </ClInclude>
+    <ClInclude Include="MapToolView.h">
+      <Filter>02. View</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>02. View\00. Form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\Terrain.h">
+      <Filter>03. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\CamTarget.h">
+      <Filter>04. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\StaticCamera.h">
+      <Filter>04. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\CameraObserver.h">
+      <Filter>05. Design</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\CollisionMgr.h">
+      <Filter>06. Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\MouseCol.h">
+      <Filter>06. Mgr\00. MouseCol</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MapTool.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="res\MapToolDoc.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="UserImages.bmp">
+      <Filter>99. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MapTool.rc">
+      <Filter>99. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MapTool.rc2">
+      <Filter>99. Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
